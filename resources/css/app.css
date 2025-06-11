@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+.bg-green-600 {
+    background-color: #16a34a;
+}
+
+.hover\:bg-green-700:hover {
+    background-color: #15803d;
+}
+
+.hover\:text-green-200:hover {
+    color: #bbf7d0;
+}
