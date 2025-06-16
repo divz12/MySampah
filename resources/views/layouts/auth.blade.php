@@ -14,9 +14,9 @@
                     <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-8 mr-2"> MySampah
                 </a>
                 <a href="{{ route('dashboard') }}" class="hover:underline">Dashboard</a>
-                <a href="#" class="hover:underline">Tentang Kami</a>
-                <a href="#" class="hover:underline">Layanan</a>
-                <a href="#" class="hover:underline">Donasi</a>
+                <a href="{{ route('tentangkami') }}" class="hover:underline">Tentang Kami</a>
+                <a href="{{ route('layanan') }}" class="hover:underline">Layanan</a>
+                <a href="{{ route('donasi') }}" class="hover:underline">Donasi</a>
             </div>
 
             <div x-data="{ open: false }" class="relative">
