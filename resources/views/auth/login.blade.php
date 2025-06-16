@@ -8,13 +8,18 @@
         <div class="bg-gray-200 md:w-1/2 p-8 md:p-12 rounded-lg border border-green-500">
             <h2 class="text-3xl font-bold text-center text-black mb-8">Sign In</h2>
 
-            <x-auth-session-status class="mb-4" :status="session('status')" />
+            @if (session('status'))
+                <div class="mb-4 text-green-600 font-medium">
+                    {{ session('status') }}
+                </div>
+            @endif
+
 
             <form method="POST" action="{{ route('login') }}">
                 @csrf
 
                 <div class="mb-4">
-                    <label for="email" class="block text-sm font-semibold text-black mb-2">Email / No Handphone</label>
+                    <label for="email" class="block text-sm font-semibold text-black mb-2">Email</label>
                     <div class="flex items-center border bg-white px-3 py-2 rounded-md shadow-sm">
                         <input id="email" name="email" type="text" required autofocus placeholder="Enter Your Email" class="w-full outline-none bg-transparent text-black">
                     </div>

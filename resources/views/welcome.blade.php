@@ -9,7 +9,7 @@
         <div class="md:w-1/2 px-6 p-6 rounded-md">
             <h1 class="text-3xl font-semibold mb-4">Buat Sampahmu Menjadi Berharga</h1>
             <p class="text-sm mb-6">#UbahDuniaHanyaSemenit</p>
-            <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-md transition duration-200">
+            <a href="{{ route('layanan') }}" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-md transition duration-200">
                 Tukar Sampah
             </a>
         </div>
@@ -25,7 +25,7 @@
             <p class="mb-6">
                 Kami menerima sampah organik, anorganik, dan B3. Kelola melalui sistem kami agar lingkungan lebih bersih dan sehat.
             </p>
-            <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-md transition duration-200">
+            <a href="{{ route('tentangkami') }}" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-md transition duration-200">
                 Tentang Kami
             </a>
         </div>
@@ -40,7 +40,7 @@
         <p class="mb-6">
             Jangan dibuang! Salurkan donasimu di sini dan bantu mereka yang membutuhkan.
         </p>
-        <a href="#" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md font-semibold transition duration-200">
+        <a href="{{ route('donasi') }}" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md font-semibold transition duration-200">
             Donasikan
         </a>
     </div>

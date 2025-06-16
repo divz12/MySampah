@@ -6,9 +6,9 @@
 
         </div>
 
-        <a href="#" class="hover:underline font-semibold">Tentang Kami</a>
-        <a href="#" class="hover:underline font-semibold">Layanan</a>
-        <a href="#" class="hover:underline font-semibold">Donasi</a>
+        <a href="{{ route('tentangkami') }}" class="hover:underline font-semibold">Tentang Kami</a>
+        <a href="{{ route('layanan') }}" class="hover:underline font-semibold">Layanan</a>
+        <a href="{{ route('donasi') }}" class="hover:underline font-semibold">Donasi</a>
     </div>
 
     <a href="{{ route('login') }}" class="font-semibold hover:underline">Sign In</a>

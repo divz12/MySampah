@@ -15,7 +15,7 @@
             <div class="bg-gray-200 md:w-1/2 p-8 md:p-12 rounded-lg border border-green-500">
                 <h2 class="text-3xl font-bold text-center text-black mb-8">Sign Up</h2>
 
-                <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="{{ route('register') }}">
                     @csrf
 
                     <div class="mb-4">
